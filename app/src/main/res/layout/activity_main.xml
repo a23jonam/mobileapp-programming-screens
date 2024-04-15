@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:text="CLICK ME!!!"
         android:background="@color/colorRed"
+        android:textColor="@color/colorMagenta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
