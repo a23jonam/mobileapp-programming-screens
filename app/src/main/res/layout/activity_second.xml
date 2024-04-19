@@ -11,10 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/colorWhite"
-        android:text="Hello darkness my old friend"
+        android:background="@color/colorDarkGreen"
         tools:ignore="MissingConstraints"
         android:id="@+id/intentView"
         />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

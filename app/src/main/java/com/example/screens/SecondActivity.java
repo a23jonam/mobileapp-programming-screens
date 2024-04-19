@@ -14,9 +14,9 @@ public class SecondActivity extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            String name = extras.getString("name");
+            String name = extras.getString("extra");
             TextView textView1 = findViewById(R.id.intentView);
-            textView1.setText("Hello fellow droid!".concat(name));
+            textView1.setText("The age of men is over, the time of the droid has ".concat(name));
         }
 
     }
